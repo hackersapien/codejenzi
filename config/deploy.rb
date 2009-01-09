@@ -25,7 +25,7 @@ role :db,  "ec2-174-129-168-6.compute-1.amazonaws.com", :primary => true
 
 set :merb_adapter,     "mongrel"
 set :merb_environment, ENV["MERB_ENV"] || "production"
-set :merb_port,        4000
+set :merb_port,        8000
 set :merb_servers,     1
 
 #
