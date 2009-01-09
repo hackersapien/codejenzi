@@ -1,0 +1,13 @@
+<h2>Developers List</h2>
+<p><%=@developers.size%></p>
+<table width="100%" cellpadding="3">
+<% for developer in @developers %>
+<tr>
+<td><%=developer.firstname%></td>
+<td><%=developer.middlename%></td>
+<td><%=developer.lastname%></td>
+<td>Profile</td>
+</tr>
+	
+<%-end%>
+</table>
