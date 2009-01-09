@@ -13,4 +13,6 @@ class Developer
   property :picture, String
   property :email, String
 
+  belongs_to :country
+
 end

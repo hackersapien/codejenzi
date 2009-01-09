@@ -5,4 +5,6 @@ class Country
 
   property :country, String
 
+  has n, :developers
+
 end
